@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * @author Shaoshuai Xu
  * @version 1.0
- * @description: Assignment1 Solutions
+ * @description: AQuestion1 Solution
  * @date 2021/9/14 19:19
  */
 public class Question1Solution {
