@@ -28,7 +28,6 @@ public class Question1Solution {
      * @date: 2021/9/14 20:30
      */
     public int[] question1(int[] array) {
-        // Write your solution here
         if (array.length <= 1) {
             return array;
         }
