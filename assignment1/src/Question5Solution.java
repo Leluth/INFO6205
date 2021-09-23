@@ -16,10 +16,14 @@ public class Question5Solution {
      */
     public static void main(String[] args) {
         Question5Solution solution = new Question5Solution();
-        String s = "anagram";
-        String t = "nagaram";
-        boolean res = solution.checkAnagram(s, t);
-        System.out.println(res);
+        String s1 = "anagram";
+        String t1 = "nagaram";
+        boolean res1 = solution.checkAnagram(s1, t1);
+        System.out.println(res1);
+        String s2 = "rat";
+        String t2 = "car";
+        boolean res2 = solution.checkAnagram(s2, t2);
+        System.out.println(res2);
     }
 
     public boolean checkAnagram(String s, String t) {

@@ -16,8 +16,10 @@ public class Question1Solution {
      */
     public static void main(String[] args) {
         Question1Solution solution = new Question1Solution();
-        int[] res = solution.question1(new int[]{2,0,2,1,1,0});
-        System.out.println(Arrays.toString(res));
+        int[] res1 = solution.question1(new int[]{2,0,2,1,1,0});
+        System.out.println(Arrays.toString(res1));
+        int[] res2 = solution.question1(new int[]{2,0,1});
+        System.out.println(Arrays.toString(res2));
     }
 
     /**

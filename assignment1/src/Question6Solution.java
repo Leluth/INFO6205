@@ -16,9 +16,12 @@ public class Question6Solution {
      */
     public static void main(String[] args) {
         Question6Solution solution = new Question6Solution();
-        int[] data = new int[]{3, 1, 2, 4};
-        int[] res = solution.sort(data);
-        System.out.println(Arrays.toString(res));
+        int[] data1 = new int[]{3, 1, 2, 4};
+        int[] res1 = solution.sort(data1);
+        System.out.println(Arrays.toString(res1));
+        int[] data2 = new int[]{0};
+        int[] res2 = solution.sort(data2);
+        System.out.println(Arrays.toString(res2));
     }
 
     public int[] sort(int[] nums) {

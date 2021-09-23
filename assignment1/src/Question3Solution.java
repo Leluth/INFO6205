@@ -16,9 +16,12 @@ public class Question3Solution {
      */
     public static void main(String[] args) {
         Question3Solution solution = new Question3Solution();
-        int[] data = new int[]{6, 2, 6, 5, 1, 2};
-        int res = solution.maxSum(data);
-        System.out.println(res);
+        int[] data1 = new int[]{6, 2, 6, 5, 1, 2};
+        int res1 = solution.maxSum(data1);
+        System.out.println(res1);
+        int[] data2 = new int[]{1, 4, 3, 2};
+        int res2 = solution.maxSum(data2);
+        System.out.println(res2);
     }
 
     public int maxSum(int[] array) {

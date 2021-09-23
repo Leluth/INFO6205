@@ -17,9 +17,12 @@ public class Question2Solution {
      */
     public static void main(String[] args) {
         Question2Solution solution = new Question2Solution();
-        Interval[] data = new Interval[]{new Interval(0, 30), new Interval(15, 20), new Interval(5, 10)};
-        boolean res = solution.checkIntervals(data);
-        System.out.println(res);
+        Interval[] data1 = new Interval[]{new Interval(0, 30), new Interval(15, 20), new Interval(5, 10)};
+        boolean res1 = solution.checkIntervals(data1);
+        System.out.println(res1);
+        Interval[] data2 = new Interval[]{new Interval(7, 10), new Interval(2, 4)};
+        boolean res2 = solution.checkIntervals(data2);
+        System.out.println(res2);
     }
 
     private static class Interval {

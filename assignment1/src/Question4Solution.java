@@ -16,9 +16,12 @@ public class Question4Solution {
      */
     public static void main(String[] args) {
         Question4Solution solution = new Question4Solution();
-        int[] data = new int[]{-7, -3, 2, 3, 11};
-        int[] res = solution.squareSort(data);
-        System.out.println(Arrays.toString(res));
+        int[] data1 = new int[]{-7, -3, 2, 3, 11};
+        int[] res1 = solution.squareSort(data1);
+        System.out.println(Arrays.toString(res1));
+        int[] data2 = new int[]{-4, -1, 0, 3, 10};
+        int[] res2 = solution.squareSort(data2);
+        System.out.println(Arrays.toString(res2));
     }
 
     public int[] squareSort(int[] nums) {
