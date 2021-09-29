@@ -19,6 +19,9 @@ public class Question5Solution {
         System.out.println(Arrays.toString(res2));
     }
 
+    // n is the length of nums
+    // Time: O(log(n))
+    // Space: O(1)
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[]{-1, -1};
         if (nums == null || nums.length <= 0 || target < nums[0] || target > nums[nums.length - 1]) {

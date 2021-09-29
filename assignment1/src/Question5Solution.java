@@ -26,6 +26,9 @@ public class Question5Solution {
         System.out.println(res2);
     }
 
+    // m is the length of s, n is th length of t
+    // Time: O(m * log(m) + n * log(n))
+    // Space: O(m + n)
     public boolean checkAnagram(String s, String t) {
         if (s == null || t == null || s.length() != t.length()) {
             return false;

@@ -13,6 +13,8 @@ public class Question9Solution {
         System.out.println(res2);
     }
 
+    // Time: O(k)
+    // Space: O(1)
     public int findKthPositive(int[] arr, int k) {
         if (arr == null || arr.length == 0) {
             return k;

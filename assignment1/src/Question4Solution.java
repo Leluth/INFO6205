@@ -24,6 +24,9 @@ public class Question4Solution {
         System.out.println(Arrays.toString(res2));
     }
 
+    // n is the length of nums
+    // Time: O(n)
+    // Space: O(1)
     public int[] squareSort(int[] nums) {
         if (nums == null || nums.length < 1) {
             return nums;

@@ -15,6 +15,9 @@ public class Question6Solution {
         System.out.println(res2);
     }
 
+    // m is the length of grid, n is the length of grid[0]
+    // Time: O(m + n)
+    // Space: O(1)
     public int countNegatives(int[][] grid) {
         int row = 0;
         int col = 0;

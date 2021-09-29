@@ -16,6 +16,9 @@ public class Question4Solution {
         System.out.println(list);
     }
 
+    // n is the length of nums
+    // Time: O(n)
+    // Space: O(1)
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> res = new ArrayList<>();
         if (nums == null) {

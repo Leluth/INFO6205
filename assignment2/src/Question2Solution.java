@@ -17,6 +17,9 @@ public class Question2Solution {
         System.out.println(solution.minRooms(data));
     }
 
+    // n is the length of intervals
+    // Time: O(n * log(n))
+    // Space: O(n)
     public int minRooms(int[][] intervals) {
         if (intervals.length == 0) {
             return 0;

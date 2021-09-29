@@ -13,6 +13,9 @@ public class Question8Solution {
         System.out.println(res2);
     }
 
+    // n is the length of nums
+    // Time: O(n)
+    // Space: O(n)
     public int findDuplicate(int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;

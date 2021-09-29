@@ -24,6 +24,9 @@ public class Question3Solution {
         System.out.println(res2);
     }
 
+    // n is the length of array
+    // Time: O(n * log(n))
+    // Space: O(1)
     public int maxSum(int[] array) {
         Arrays.sort(array);
         int sum = 0;

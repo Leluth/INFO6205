@@ -29,6 +29,8 @@ public class Question1Solution {
      * @author: ssxu
      * @date: 2021/9/14 20:30
      */
+    // Time: O(n)
+    // Space: O(1)
     public int[] question1(int[] array) {
         if (array.length <= 1) {
             return array;

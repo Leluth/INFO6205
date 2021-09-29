@@ -13,6 +13,9 @@ public class Question7Solution {
         System.out.println(res2);
     }
 
+    // n is the length of nums
+    // Time: O(log(n))
+    // Space: O(1)
     public int findPeakElement(int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;

@@ -17,6 +17,9 @@ public class Question1Solution {
         System.out.println(Arrays.toString(res));
     }
 
+    // n is the length of nums
+    // Time: O(n)
+    // Space: O(1)
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         Map<Integer, Integer> map = new HashMap<>();

@@ -34,6 +34,9 @@ public class Question2Solution {
         }
     }
 
+    // n is the length of intervals
+    // Time: O(n * log(n))
+    // Space: O(1)
     public boolean checkIntervals(Interval[] intervals) {
         if (intervals == null || intervals.length < 2) {
             return true;
