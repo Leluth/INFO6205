@@ -20,9 +20,9 @@ public class Question6Solution {
     // Space: O(1)
     public int countNegatives(int[][] grid) {
         int row = 0;
-        int col = 0;
+        int col = grid[0].length - 1;
         int res = 0;
-        while(row < grid.length && col < grid[0].length){
+        while(row < grid.length && col >= 0){
             if(grid[row][col] < 0){
                 res += grid.length - row ;
                 col--;
